@@ -1,0 +1,379 @@
+body{
+  margin: 0;
+  background-color: 	#808080;
+}
+header{
+  display: flex;
+  /* width: 1224px; */
+  min-height: 80px;
+  background-color: #671040;
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.logo1{
+  display: flex;
+  padding-inline-start: 6%;
+}
+
+.logo1 img{
+  height: 145px;
+}
+
+nav a{
+  padding-right: 20px;
+
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width:800px){
+  header{
+      flex-direction: column;
+      
+  }
+  nav {
+      padding: 10px 0px;
+    }
+    
+  }
+  
+  .content{
+    background-color: #F0EAEA;
+    display: flex;
+    height: 500px;
+  
+}
+
+
+
+.logo2{
+  
+  display: flex;
+  justify-content: center;
+  margin: 20px 25px 20px 0 ; 
+
+}
+
+.content .texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 4% 0 4%;
+  padding: 50px;
+
+}
+
+.texto h1{
+  font-family: sans-serif;
+  color: #671040;
+  font-size: 40px;
+  margin: 0 0 0 0;
+}
+
+.texto p{
+  font-size: 25px;
+  margin: 15px 0 25px 0;
+}
+
+.botones-descarga{
+  display: flex;
+  justify-content: space-between;
+}
+
+.botones-descarga .google-play{
+
+  background-color: #CFCACA;
+  border-radius: 25px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: none;
+  
+}
+
+.botones-descarga .google-play a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.botones-descarga .browser{
+  /* height: 50px; */
+  /* width: 180px; */
+  background-color: #CFCACA;
+  border-radius: 25px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: none;
+}
+
+.botones-descarga .browser a{
+  text-decoration: none;
+  color: black;
+}
+
+.informacion{
+  margin: 0%;
+  height: 500px;
+  background-color: #671040;
+  display: flex;
+}
+
+.imagen-aplicacion img{
+  height: 500px;
+  
+}
+
+.texto-aplicacion{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-aplicacion h1{
+  font-size: 40px;
+  margin: 0 20% 0 20px;
+  font-family: sans-serif;
+  
+}
+
+.texto-aplicacion p{
+  font-size: 25px;
+  margin: 0 30% 0 20px;
+  
+}
+
+.gestor-perzonalisable{
+  margin: 0%;
+  height: 500px;
+  background-color: #F0EAEA;
+  display: flex;
+}
+ 
+.imagen-aplicacion-perzonalisable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-aplicacion-perzonalisable img{
+  height: 450px;
+  margin: 10px 0 0 0;
+}
+
+.gestor-perzonalisable .texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.gestor-perzonalisable .texto h1{
+  font-size: 40px;
+  margin: 0 90px 0 75px;
+  font-family: sans-serif;
+}
+
+.gestor-perzonalisable .texto p{
+  font-size: 25px;
+  margin: 0 85px 0 75px;
+  
+} 
+.cajas-comentarios{
+  background-color: #671040;
+  margin: 0%;
+  height: 600px;
+}
+
+.cajas-comentarios .texto{
+  display: flex;
+  flex-direction  : column;
+  align-items: center;
+}
+.cajas-comentarios .texto h3{
+  color: white;
+  margin-top: 25px;
+
+}
+
+.cajas-comentarios .texto h1{
+  color: white;
+  font-size: 30px;
+  margin: 25px 0 40px 0;
+}
+/* ------------------------------- */
+
+.cajas-comentario{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+
+}
+
+.cajas-comentario .comentario-lucia{
+  background-color: black;
+  width: 340px;
+  height: 290px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px  40px 0 0;
+  color: white;
+}
+
+.cajas-comentario .comentario-lucia h2{
+  margin: 20px 0 0 10px;
+}
+
+.cajas-comentario .comentario-lucia p{
+  font-size: 19px;
+  padding: 10px;
+  margin: 0;
+}
+
+.cajas-comentario .comentario-lucia .comentario1{
+  margin-left: 5px;
+}
+.cajas-comentario .comentario-lucia .comentario1 img{
+  height: 40px;
+}
+.cajas-comentario .comentario-lucia .comentario2 img{
+  height: 40px;
+}
+.cajas-comentario .comentario-lucia .comentario3 img{
+  height: 40px;
+}
+/* -------------------- */
+.cajas-comentario .comentario-leonardo{
+  background-color: black;
+  width: 340px;
+  height: 290px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px  0 0 0;
+  color: white;
+}
+
+.cajas-comentario .comentario-leonardo h2{
+  margin: 20px 0 0 10px;
+}
+
+.cajas-comentario .comentario-leonardo p{
+  font-size: 19px;
+  padding: 10px;
+  margin: 0;
+}
+
+.cajas-comentario .comentario-leonardo .comentario1{
+  margin-left: 5px;
+}
+.cajas-comentario .comentario-leonardo .comentario1 img{
+  height: 40px;
+}
+.cajas-comentario .comentario-leonardo .comentario2 img{
+  height: 40px;
+}
+.cajas-comentario .comentario-leonardo .comentario3 img{
+  height: 40px;
+}
+/* ---------------------------- */
+
+.cajas-comentario .comentario-camila{
+  background-color: black;
+  width: 340px;
+  height: 290px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 40px;
+  color: white;
+}
+
+.cajas-comentario .comentario-camila h2{
+  margin: 20px 0 0 10px;
+}
+
+.cajas-comentario .comentario-camila p{
+  font-size: 19px;
+  padding: 10px;
+  margin: 0;
+}
+
+.cajas-comentario .comentario-camila .comentario1{
+  margin-left: 5px;
+}
+.cajas-comentario .comentario-camila .comentario1 img{
+  height: 40px;
+}
+.cajas-comentario .comentario-camila .comentario2 img{
+  height: 40px;
+}
+.cajas-comentario .comentario-camila .comentario3 img{
+  height: 40px;
+}
+/* ---------------------- */
+
+.descarga{
+  height: 500px;
+  margin: 0;
+  background-color: #F0EAEA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.descarga .texto-descarga{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descarga .texto-descarga h1{
+  font-size: 50px;
+  color: #671040;
+  margin-bottom: 0;
+}
+
+.descarga .texto-descarga h3{
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+
+.descarga .botones-descarga{
+  width: 400px;  
+}
+
+/* -------------------- */
+.informacion-abajo{
+  background-color: #671040;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 ;
+}
+
+.informacion-abajo .logo{
+  /* margin: 0 0 0 45px ; */
+}
+.informacion-abajo .logo img{
+  height: 145px;
+}
+
+.informacion-abajo .informacion-abajo2 a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.informacion-abajo .redes-sociales{
+  width: 15px;
+  height: 15px;
+}
